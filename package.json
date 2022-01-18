@@ -1,0 +1,29 @@
+{
+  "name": "hachiware_server_module_webroot",
+  "version": "1.0.0",
+  "description": "Module for web server compatible with template engine of web server package \"hachiware_server\".",
+  "main": "index.js",
+  "dependencies": {
+    "hachiware_te": "^1.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/masatonakatsuji2021/hachiware_server_module_webroot.git"
+  },
+  "keywords": [
+    "hachiware",
+    "hachiware_server",
+    "module",
+    "web server",
+    "template engine"
+  ],
+  "author": "Nakatsuji Masato",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/masatonakatsuji2021/hachiware_server_module_webroot/issues"
+  },
+  "homepage": "https://github.com/masatonakatsuji2021/hachiware_server_module_webroot#readme"
+}
