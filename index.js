@@ -45,7 +45,7 @@ module.exports = function(conf, context){
             var file = req.url + ".hte";
         }
 
-        var path = conf.webroots.rootPath + "/" +conf.webroots.path;
+        var path = conf.rootPath + "/" +conf.webroots.path;
         path = path.split("//").join("/");
 
         if(!conf.webroots.errorDebug){
